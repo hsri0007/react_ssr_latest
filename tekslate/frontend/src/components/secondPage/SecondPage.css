@@ -1,0 +1,155 @@
+.secondPage-outer{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.secondPage{
+    background-color: rgb(252, 241, 243);
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+}
+.secondPage-content{
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    width: 55%;
+    height:100vh;
+
+}
+.secondPage-left ul li{
+    list-style: none;
+    padding: 10px 0px 0px 0px;
+}
+.secondPage-left ul li a{
+    text-decoration: none;
+    color: rgb(80, 78, 80);
+}
+.secondPage-left ul li a:hover{
+    text-decoration: none;
+    color: rgb(240, 33, 26);
+}
+.sticky-title{
+    font-size: 24px;
+    color: rgb(90, 88, 88);
+    border-bottom: 2px solid rgb(158, 154, 154);
+}
+.sticky-list{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    font-size: 20px;
+    height:56vh;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.sticky-button{
+    padding-top: 20px;
+    align-items: center;
+    justify-content:center;
+}
+.secondPage-content-title{
+    font-size: 24px;
+    color: rgb(150, 146, 146);
+}
+.secondPage-content-heading{
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    padding: 12px 0px;
+}
+.unique{
+    background-color: rgb(248, 203, 203);
+    color: rgb(241, 56, 56);
+    font-size: 35px;
+    padding: 0px 7px;
+    margin: 0px 5px;
+}
+.secondPage-content-paragraph{
+    font-size: 20px;
+    padding: 12px 0px;
+    word-spacing: 5px;
+    line-height: 1.6;
+}
+@media screen and (max-width: 1080px) {
+    .secondPage{
+        background-color: rgb(252, 241, 243);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 10px;
+    }
+    .secondPage-content{
+        display: flex;
+        flex-direction: column;
+        /* background-color: blue; */
+        width: 100%;
+        /* height:100vh; */
+    
+    }
+    .secondPage-content-title{
+        font-size: 14px;
+        color: rgb(150, 146, 146);
+        padding-top:20px;
+    }
+    .secondPage-content-heading{
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        padding: 4px 0px;
+    }
+    .unique{
+        background-color: rgb(248, 203, 203);
+        color: rgb(241, 56, 56);
+        font-size: 20px;
+        padding: 0px 7px;
+        margin: 0px 5px;
+    }
+    .secondPage-content-paragraph{
+        font-size: 15px;
+        padding: 12px 0px;
+        word-spacing: 5px;
+        line-height: 1.6;
+    }
+    .sticky-list{
+        display: none; 
+    }
+    /* .sticky-title{
+        font-size: 16px;
+        color: rgb(90, 88, 88);
+        border-bottom: 2px solid rgb(158, 154, 154);
+    }
+    
+    .sticky-list{
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        font-size: 10px;
+        height:43vh;
+        box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 10px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    } */
+    /* .sticky-button{
+        padding-top: 20px;
+    }
+    .secondPage-left ul li{
+        list-style: none;
+        padding: 10px 0px 0px 0px;
+    }
+    .secondPage-left ul li a{
+        text-decoration: none;
+        color: rgb(80, 78, 80);
+    }
+    .secondPage-left ul li a:hover{
+        text-decoration: none;
+        color: rgb(240, 33, 26);
+    } */
+    
+}

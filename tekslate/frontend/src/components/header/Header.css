@@ -1,0 +1,161 @@
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+.banner-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(112, 123, 230);
+    width: 100%;
+    height: 50px;
+}
+.title-link{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+
+}
+.dropdown ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.dropdown ul li a{
+    list-style: none;
+    text-decoration: none;
+    width: 60px;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+.submenu-campuses{
+    display: none;   
+}
+.submenu-campuses ul li:hover{
+    display: block;
+}
+.dropdown ul li:hover .submenu-campuses{
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    box-shadow: rgba(206, 201, 201, 0.85) 0px 5px 10px;
+}
+.submenu-title{
+    list-style: none;
+    padding: 6px;
+}
+.submenu-name{
+list-style: none;
+padding: 6px;
+}   
+.submenu-time{
+    list-style: none;
+    padding: 6px;
+}   
+
+.dropdown:hover{
+    background-color: rgb(247, 244, 241);
+    box-shadow: rgba(206, 201, 201, 0.85) 0px 5px 10px;
+}
+.elements{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submenu-title{
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(184, 181, 178)
+}
+.submenu-time{
+    padding: 10px;
+    color:rgb(184, 181, 178)
+}
+.item{
+    padding:10px;
+
+}
+.item:hover{
+    background-color: rgb(247, 233, 231);
+}
+.elements{
+    padding-left: 12px;
+    height: 60px;
+    width: 100px;
+}
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 1080px) {
+    .header-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-info-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: rgb(112, 123, 230);
+        width: 100%;
+        height: 50px;
+    }
+    .title-link-mobile{
+        text-decoration: none;
+        font-size: 9px;
+        font-weight: 500;
+        color: white;
+    }
+    .logo-mobile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .nav-left-mobile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 300px;
+    }
+    .header{
+        display: none;
+    }
+    .banner-info{
+        display: none;
+    }
+}

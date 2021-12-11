@@ -1,0 +1,142 @@
+.outer{
+    display: flex;
+    min-height:100vh;
+    flex-direction:column;
+    justify-content: flex-end;
+}
+footer{
+    position: relative;
+    padding:50px 100px;
+    background-color:rgb(24, 22, 22);
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+.footer-elements{
+    color: white;
+    word-wrap: wrap;
+}
+.upper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items:center;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+.footer-elements ul{
+    list-style: none;
+}
+
+.footer-elements ul li a{
+    text-decoration: none;
+    color:rgb(161, 161, 160);
+
+}
+.footer-elements ul li{
+    padding:15px 0px;
+}
+.footer-elements-last{
+    display: flex;
+    flex-direction: column;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
+}
+.mid-title{
+    color: white;
+    padding: 4px;
+    border-bottom: 4px solid gray;
+}
+.mid-elements{
+    display: flex;
+    padding: 5px;
+}
+.mid-labels{
+    padding:12px;
+}
+.mid-labels a{
+    text-decoration: none;
+    color:rgb(161, 161, 160);
+}
+.mid-copyright{
+    display: flex;
+    justify-content:center;
+    font-size:16px;
+    color: rgb(223, 219, 219);
+    border-top: 1px solid gray;
+    padding-top: 15px;
+    width: 60%;
+
+}
+.mid-disclaimer{
+    font-size:14px;
+    padding-top: 25px;
+    color:rgb(161, 161, 160);
+}
+.footer-elements-title{
+    border-bottom: 2px solid rgb(236, 234, 234);
+    padding-bottom: 15px;
+    width: 60%;
+}
+.footer-elements-content:hover{
+    color: white;
+
+}
+
+@media screen and (max-width: 1080px) {
+    .upper{
+        display: none;
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-top: 15px;
+    }
+    .mid-title{
+        color: white;
+        padding-top: 12px;
+        border-bottom: 4px solid gray;
+        font-size: 17px;
+    }
+    .mid-elements{
+        display: flex;
+        padding: 12px;
+    }
+    .mid-labels{
+        padding:12px;
+    }
+    .mid-labels a{
+        text-decoration: none;
+        color:rgb(161, 161, 160);
+    }
+    .mid-copyright{
+        display: flex;
+        justify-content:center;
+        font-size:10px;
+        color: rgb(223, 219, 219);
+        border-top: 1px solid gray;
+        padding-top: 15px;
+        width: 95%;
+    
+    }
+    .mid-disclaimer{
+        font-size:10px;
+        padding-top: 25px;
+        color:rgb(161, 161, 160);
+    }
+}

@@ -1,0 +1,83 @@
+.header{
+    margin: 15px 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    justify-content:space-between;
+}
+.entries{
+    display: flex;
+    flex-direction: row;
+    width: 135px;
+    justify-content: space-evenly;
+}
+.search-field{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-table{
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 90vh;
+}
+.course-heading{
+    margin: 0px 10px;
+    padding: 0px 10px;
+    color: #414845;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid rgb(155, 143, 143);
+}
+.courseTable{
+    margin: 0 10px;
+    color: #7e8180;
+    font-weight: 500;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 18px;    
+}
+.data{
+    padding: 15px;
+    color: #7e8180;
+    font-weight: 500;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid rgb(155, 143, 143);
+}
+.pagination{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+.paginationBttns{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  .paginationBttns a{
+    padding: 6px;
+    margin: 8px;
+    border: 1px solid #777779;
+    color: #01010c;
+    cursor: pointer;
+  }
+  .paginationBttns a:hover{
+    color: wheat;
+    background-color: rgb(26, 26, 43);
+  }
+  .paginationActive a{
+    color: #d5d7df;
+    background-color: rgb(59, 59, 68);
+  }

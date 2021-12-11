@@ -1,0 +1,14 @@
+.notFound{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(208, 208, 221);
+}
+.four{
+    font-size: 30px;
+}
+.para{
+    font-size: 25px;
+}

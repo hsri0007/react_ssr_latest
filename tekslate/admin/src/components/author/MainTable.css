@@ -1,0 +1,123 @@
+.header{
+  /* margin: 15px 10px; */
+  margin: auto 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-top: 40px; */
+  justify-content:space-between;
+}
+.entries{
+  display: flex;
+  flex-direction: row;
+  width: 135px;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+
+.main-table{
+  width: 100%;
+  /* margin: 40px 50px 0 50px; */
+  height: 90vh;
+}
+.course-heading{
+  /* margin: 0px 15px; */
+  /* padding: 0px 10px; */
+  color: #414845;
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  border: 1px solid rgb(155, 143, 143);
+}
+/* .courseTable{
+  margin: 0 10px;
+  color: #7e8180;
+  font-weight: 500;
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 18px;    
+} */
+.data{
+  /* padding: 15px; */
+  color: #7e8180;
+  font-weight: 500;
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid rgb(155, 143, 143);
+}
+.pagination{
+  display: flex;
+  /* margin: 20px; */
+  padding: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+  border-radius: 8px;
+}
+.paginationBttns{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.paginationBttns a{
+  padding: 6px;
+  margin: 8px;
+  border: 1px solid #777779;
+  color: #01010c;
+  cursor: pointer;
+}
+.paginationBttns a:hover{
+  color: wheat;
+  background-color: rgb(26, 26, 43);
+}
+.paginationActive a{
+  color: #d5d7df;
+  background-color: rgb(59, 59, 68);
+}
+
+.tables{
+    /* margin: 10px; */
+  margin: auto 20px;
+
+}
+.upper{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    /* padding-top: 40px; */
+    margin: 10px 20px 20px 20px;
+}
+
+.main-content{
+  background-color: rgb(235, 235, 240);
+  box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 10px;
+  margin: 20px;
+  border-radius: 8px;
+  padding: 18px;
+}
+.heading{
+  color: rgb(88, 88, 100);
+  padding: 8px;
+  font-size: 28px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.entries-footer{
+  color: rgb(75, 75, 83);
+  font-size: 16px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.loading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: aqua;
+}

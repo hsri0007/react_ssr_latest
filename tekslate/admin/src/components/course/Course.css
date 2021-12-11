@@ -1,0 +1,15 @@
+.admin{
+    display: flex;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.table{
+    /* overflow: scroll; */
+    display: flex;
+    width: 100%;
+
+    flex-direction: column;
+}
+.main-table{
+    /* background-color:blue; */
+}

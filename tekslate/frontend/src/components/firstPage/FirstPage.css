@@ -1,0 +1,99 @@
+.firstPage-outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0 500px; */
+
+}
+.outer-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    word-wrap: wrap;
+    /* background-color: blue; */
+
+}
+.left{
+    display: flex;
+    flex-direction:column;
+    padding: 0 50px;
+}
+.course-name{
+    font-size:45px;
+}
+.course-time{
+    
+    font-size:20px;
+    color:rgb(54, 56, 56);
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+.paragraph{
+    font-size:20px;
+    color:rgb(54, 56, 56);
+    margin-top: 10px;
+}
+.right{
+    display: flex;
+    flex-direction:column;
+    margin: 0 50px;
+    /* padding: 20px 0px; */
+    border-radius: 40px;
+}
+.left-inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.syllabus{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-left: 50px;
+}
+.syllabus span a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight:500;
+}
+.Mui-disabled { background-color: red; }
+
+@media screen and (max-width: 1080px) {
+    .right{
+        display: none;
+    }
+    .left{
+        display: flex;
+        flex-direction:column;
+        padding: 0 20px 0 20px;
+    }
+    .course-name{
+        font-size:24px;
+        font-weight: 700;
+    }
+    .course-time{
+    
+        font-size:15px;
+        color:rgb(54, 56, 56);
+        font-weight: 500;
+        margin-top: 10px;
+    
+    }
+    .paragraph{
+        font-size:15px;
+        color:rgb(54, 56, 56);
+        margin-top: 10px;
+    }
+    .syllabus span a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight:500;
+    }
+}

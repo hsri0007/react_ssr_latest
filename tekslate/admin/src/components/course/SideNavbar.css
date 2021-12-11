@@ -1,0 +1,13 @@
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgb(214, 212, 212);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    height: 67px;
+}

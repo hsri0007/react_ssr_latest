@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(233, 233, 240);
+}
+.headingLogin{
+    display: flex;
+    color: rgb(242, 242, 248);
+    font-family:sans-serif;
+    background: linear-gradient(#828ebe, #000005);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 50vh;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#eef0f8, #bbbbc0);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 10px;
+
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.field{
+    display: flex;
+    margin: 15px;
+}
+.button{
+    margin-top: 30px;
+}
